@@ -1,0 +1,135 @@
+/*CSS reset settings here*/
+*{
+    margin: 0px;
+    padding: 0px;
+   }
+     
+  .envoltura{
+    width: 1024px;
+    height: auto;
+    background-color: silver;
+    margin: 0px auto 20px auto;
+    overflow: auto;
+
+   }
+    .header{
+    width: 975px;    
+    height: 150px;
+    background-color: green;
+    display: block;
+    margin: 20px;
+   }
+
+   .navegacion{
+    height: 254px;
+    width: 200px;
+    background-color: blue;
+    display: inline-block;
+    margin: 0px 10px 80px 20px;
+    vertical-align: top;
+    
+    
+   }
+
+   .contenido{
+    height: auto;
+    width: 760px;
+    background-color: red;
+    display: inline-block;
+    margin: 0px 20px 20px 0px;
+   
+   }
+
+   .subcontenido{
+    height: 180px;
+    width: 190px;
+    background-color: yellow;
+    display: inline-block;
+    margin: 20px 0px 20px 20px;
+   }
+
+   .footer{
+    height: 80px;
+    width: 619px;
+    background-color: purple;
+    display: inline-block;
+    margin: 10px 10px 40px 20px;
+   }
+   
+   @media only screen and (max-width: 480px){
+      .sm-0 {
+           
+           display: none;
+        }
+      .sm {
+        width: 90%;
+
+        }
+        .contenido {
+
+          margin: 20px;
+          margin-top: 0px;
+
+        }
+      .envoltura{
+
+          width: 100%;
+          
+      }
+
+
+   }
+
+   @media only screen and (min-width: 481px){
+
+    .med-0{
+      display: none;
+    }
+    .med{
+      width: 100%;
+    }
+    .envoltura{
+      width: 100%;
+    }
+    .header{
+      width: 95%;
+    }
+    .contenido{
+      width: 95%;
+      margin: 10px 20px 20px 20px;
+      margin-right: 10px;
+    }
+    .subcontenido{
+      width: 45%;
+      display: inline-block;
+    }
+    .footer{
+      width: 95%;
+    }
+
+
+   }
+
+   @media only screen and (min-width: 1024px){
+
+    .lg-4{
+      display: inline-block;
+      width: 20%;
+    }
+    .lg-3{
+      width: 72%;
+      margin-top: 0px;
+    }
+    .lg-1{
+
+      width: 30%;
+    }
+    .envoltura{
+      width: 100%;
+
+    }
+    .header{
+      width: 95%;
+    }
+
+   }
